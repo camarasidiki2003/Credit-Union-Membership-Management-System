@@ -1,0 +1,115 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 2px solid;
+  opacity: 0.9;
+    background-color: blue;
+    font-size:25px;
+ 
+    
+    
+}
+
+#home-section {
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background:rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.navbar-brand{
+    font-style: italic;
+    text-decoration-color: blue;
+    background-color:skyblue;
+}
+#explore-section,.card-body{
+   
+    background: url(../img/signup.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 150px;
+    
+}
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+h1, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+#containeradminlogin-section
+{
+  background: url(../img/signup2.jpg);
+  background-repeat:repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+    background-color:black;
+}
+#containeradminlogin-section{
+    color:black;
+}
+#registrationModal, #form-groupid {
+    width: 100%;
+    height: 100%;
+}
+.form-group {
+  padding: 16px;
+ 
+}
+#submitid
+{
+  background-color:blue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+
